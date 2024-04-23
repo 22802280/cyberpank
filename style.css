@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+header{
+    background: no-repeat center url(https://habrastorage.org/getpro/habr/upload_files/ef0/653/956/ef0653956fb0b60d2355fa129c61c3c2.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.block{
+    background-color: #F8F200;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 100px;
+    right: 15%;
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #F8F200;
+    background-color: black;
+    padding: 20px 10px;
+    width: 150px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+main{
+    height: 100vh;
+    max-width: 800px;
+    margin: auto;
+}
+
+p{
+    color: #777777;
+    margin: 20px 0;
+    line-height: 34px;
+}
+
+b{
+    color: #52BEDC;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+}
+
+.footer-img{
+    width: 50%;
+    margin-right: 30px;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+footer h1{
+    color: white;
+    margin-top: 20px;
+}
+
+h3{
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.footer-info img{
+    padding-right: 30px;
+}
+
+li{
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .center{
+        padding: 0 20px;
+    }
+}
